@@ -1,0 +1,44 @@
+﻿/* Canvas styling */
+canvas {
+    background: rgb(61, 59, 59); /* Dark gray background for the game canvas */
+    display: block; /* Makes the canvas act like a block element */
+    margin: 0 auto; /* Centers the canvas horizontally on the page */
+    border: 2px solid white; /* Optional: Adds a border around the canvas for better visibility */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* Optional: Adds a subtle white glow */
+}
+
+/* Body styling */
+body {
+    margin: 0; /* Removes default margin around the page */
+    background-color: black; /* Sets the background of the page to black for better contrast */
+    font-family: 'Helvetica', sans-serif; /* Sets the default font for the page */
+}
+
+/* Comments box styling */
+.comments-box {
+    width: 70%; /* Width of the box is 70% of the page */
+    background-color: white; /* White background for the box */
+    color: black; /* Black text color for easy readability */
+    margin: 20px auto; /* Centers the box and adds space above */
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 8px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+    /* Heading inside the comments box */
+    .comments-box h2 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    /* Paragraph styling for text inside the comments box */
+    .comments-box p {
+        font-size: 18px;
+        line-height: 1.2; /* Adds space between lines */
+    }
+
+
+    .boldinfo {
+    font-weight: bold;
+    color: #FF0000;
+    }
